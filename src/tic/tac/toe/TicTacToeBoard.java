@@ -451,11 +451,11 @@ public class TicTacToeBoard extends javax.swing.JFrame {
    }
     if(Butt4.getText().equals("X")){
        Butt4.setText("X");
-       b4=2;
+       
    }
     if (Butt4.getText().equals("O")){
          Butt4.setText("O");
-         b4=0;
+         
     }
   if(!playerX && Butt4.getText().equals("")){
        Butt4.setText("O");
@@ -477,11 +477,11 @@ public class TicTacToeBoard extends javax.swing.JFrame {
    }
     if(Butt5.getText().equals("X")){
        Butt5.setText("X");
-       b5=2;
+      
    }
     if (Butt5.getText().equals("O")){
          Butt5.setText("O");
-         b5=0;
+         
     }
   if(!playerX && Butt5.getText().equals("")){
        Butt5.setText("O");
@@ -503,11 +503,11 @@ public class TicTacToeBoard extends javax.swing.JFrame {
    }
     if(Butt6.getText().equals("X")){
        Butt6.setText("X");
-       b6=2;
+      
    }
     if (Butt6.getText().equals("O")){
          Butt6.setText("O");
-         b6=0;
+         
     }
   if(!playerX && Butt6.getText().equals("")){
        Butt6.setText("O");
@@ -529,11 +529,11 @@ public class TicTacToeBoard extends javax.swing.JFrame {
    }
     if(Butt7.getText().equals("X")){
        Butt7.setText("X");
-       b7=2;
+       
    }
     if (Butt7.getText().equals("O")){
          Butt7.setText("O");
-         b7=0;
+         
     }
   if(!playerX && Butt7.getText().equals("")){
        Butt7.setText("O");
@@ -555,11 +555,11 @@ public class TicTacToeBoard extends javax.swing.JFrame {
    }
     if(Butt8.getText().equals("X")){
        Butt8.setText("X");
-       b8=2;
+       
    }
     if (Butt8.getText().equals("O")){
          Butt8.setText("O");
-         b8=0;
+        
     }
   if(!playerX && Butt8.getText().equals("")){
        Butt8.setText("O");
@@ -581,11 +581,11 @@ public class TicTacToeBoard extends javax.swing.JFrame {
    }
     if(Butt9.getText().equals("X")){
        Butt9.setText("X");
-       b9=2;
+      
    }
     if (Butt9.getText().equals("O")){
          Butt9.setText("O");
-         b9=0;
+         
     }
   if(!playerX && Butt9.getText().equals("")){
        Butt9.setText("O");
@@ -616,11 +616,11 @@ public class TicTacToeBoard extends javax.swing.JFrame {
    }
     if(Butt1.getText().equals("X")){
        Butt1.setText("X");
-       b1=2;
+      
    }
     if (Butt1.getText().equals("O")){
          Butt1.setText("O");
-         b1=0;
+         
     }
   if(!playerX && Butt1.getText().equals("")){
        Butt1.setText("O");
@@ -642,11 +642,11 @@ public class TicTacToeBoard extends javax.swing.JFrame {
    }
     if(Butt2.getText().equals("X")){
        Butt2.setText("X");
-       b2=2;
+      
    }
     if (Butt2.getText().equals("O")){
          Butt2.setText("O");
-         b2=0;
+         
     }
   if(!playerX && Butt2.getText().equals("")){
        Butt2.setText("O");
@@ -670,11 +670,11 @@ public class TicTacToeBoard extends javax.swing.JFrame {
    }
     if(Butt3.getText().equals("X")){
        Butt3.setText("X");
-       b3=2;
+       
    }
     if (Butt3.getText().equals("O")){
          Butt3.setText("O");
-         b3=0;
+         
     }
   if(!playerX && Butt3.getText().equals("")){
        Butt3.setText("O");
@@ -702,15 +702,15 @@ public class TicTacToeBoard extends javax.swing.JFrame {
        if(b1==2 && b2==2 && b3 ==2){
            xScore++;
            Xcount.setText(String.valueOf(xScore));
-         b1 =1;
-         b2 =1;
-         b3 =1;
-         b4 =1; 
-         b5 =1;
-         b6 =1;
-         b7 =1;
-         b8 =1;
-         b9 =1;
+         b1 =3;
+         b2 =3;
+         b3 =3;
+         b4 =3; 
+         b5 =3;
+         b6 =3;
+         b7 =3;
+         b8 =3;
+         b9 =3;
          
        
         }
