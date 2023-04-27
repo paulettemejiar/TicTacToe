@@ -676,7 +676,7 @@ public void playerTurn(){
             jPanel8.setBackground(new Color(0,255,0));
             jPanel10.setBackground(Color.WHITE);
         }
-        else if(!playerX){
+        if(!playerX){
             jPanel10.setBackground(new Color(0,255,0));
             jPanel8.setBackground( Color.WHITE);
             
@@ -925,6 +925,7 @@ public void playerTurn(){
          b7 =1;
          b8 =1;
          b9 =1;
+        
      
        }
        
